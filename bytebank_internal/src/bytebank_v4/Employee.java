@@ -1,14 +1,12 @@
 package bytebank_v4;
 
-public class Employee {
+public abstract class Employee { //abstract = disable the ability to create an Employee object
 
 	private String name;
 	private String cpf;
 	private double compensation; //protected = private to everyone but child classes
 	
-	public double getBonus() {
-		return this.compensation * 0.05;
-	}
+	public abstract double getBonus(); //method not implemented on super class, only on child classes
 	
 	public String getName() {
 		return name;

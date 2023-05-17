@@ -6,12 +6,12 @@ public class ReferenceTest {
 		g1.setName("Marcos");
 		g1.setCompensation(5000.0);
 		
-		Employee f = new Employee();
-		f.setCompensation(2000.0);
+		Designer d = new Designer();
+		d.setCompensation(2000.0);
 		
 		BonusRecords control = new BonusRecords();
 		control.record(g1);
-		control.record(f);
+		control.record(d);
 		
 		System.out.println(control.getSum());
 	}
