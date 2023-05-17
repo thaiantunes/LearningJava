@@ -96,5 +96,5 @@ replay_pid*
 # End of https://www.toptal.com/developers/gitignore/api/java,eclipse
 
 # Extra files
-bytebank_v1
-bytebank_v3
+bytebank/bytebank_v1
+bytebank/bytebank_v3
