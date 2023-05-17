@@ -2,7 +2,11 @@ package bytebank_v4;
 
 public class Admin extends Employee implements Checks {
 	
-	private int password;
+	private ChecksUtil util;
+	
+	public Admin() {
+		this.util = new ChecksUtil();
+	}
 	
 	@Override
 		public double getBonus() {
@@ -11,16 +15,11 @@ public class Admin extends Employee implements Checks {
 	
 	@Override
 		public void setPassword(int password) {
-			this.password = password;
+			this.util.setPassword(password);
 		}
-	
-	
+
 	@Override
 		public boolean checkPass(int password) {
-			if(this.password == password) {
-				return true;
-			} else {
-			return false;
-			}
-		}
+			return this.util.checkPass(password);
+}
 }
