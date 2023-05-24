@@ -1,5 +1,13 @@
 package bytebank_v5;
 
+/**
+ * This class represents a Bytebank account.
+ * 
+ * @author Thainara Antunes
+ *
+ */
+
+
 public abstract class Account {
 	protected double balance; //it is possible to declare a default value for this attributes. if not declared, it will be 0
 	private int branch;
@@ -15,6 +23,14 @@ public abstract class Account {
 	}
 	
 	public abstract void deposit(double value);
+	
+	
+	/** 
+	 * Withdraw value must be lower than the account's balance.
+	 * 
+	 * @param value
+	 * @throws InsufficientFundsException
+	 */
 	
 	public void withdraw(double value) throws InsufficientFundsException {
 		if(this.balance < value) {

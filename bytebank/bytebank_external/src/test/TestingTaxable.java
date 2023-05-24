@@ -1,4 +1,6 @@
-package bytebank_v5;
+package test;
+
+import bytebank_v5.*;
 
 public class TestingTaxable {
 	public static void main(String[] args) {

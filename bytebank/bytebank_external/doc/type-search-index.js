@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"bytebank_v5","l":"Account"},{"l":"All Classes and Interfaces","u":"allclasses-index.html"}];updateSearchResults();

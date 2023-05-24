@@ -1,5 +1,13 @@
 package bytebank_v5;
 
+/**
+ * This class represents a Bytebank account holder.
+ * 
+ * @author Thainara Antunes
+ * @version 0.1
+ *
+ */
+
 public class Holder {
 	private String name;
 	private String cpf;
