@@ -8,7 +8,7 @@ Collection of topics and examples of the basic Java syntax
 
 ### bytebank
 Small application to emulate a bank environment. It contains both the bank internal system and external systems. Here, I applied my knowledge of Object Oriented Programming, Heritage, Composition, Interfaces and Exceptions.
-#### Stack
+**Stack:**
 - IDE: Eclipse 2023-03
 - Java: 17
 
@@ -20,12 +20,12 @@ Project to interact with MongoDB. Actions performed:
 - Remove document from colletion;
 - Update document inside a collection;
 - Disconnect from DB.
-#### Stack
+**Stack:**
 - Maven
 - IDE: Eclipse 2023-03
 - Java: 17
 - MongoDB: 6.0
-#### Requirements
+**Requirements:**
 Add MongoDB driver and BSON dependencies to Maven pom.xml file, as bellow:
 ``` xml
 <project>
